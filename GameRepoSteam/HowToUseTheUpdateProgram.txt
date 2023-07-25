@@ -1,0 +1,81 @@
+ 
+go to bash or you're terminal ctrl + alt + t
+go to where you downloaded file "type"(   ls   ) he wil give you a list name packages
+
+and search the name of the packeges what you needed
+and type cd NAME_PACKAGES
+example malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~$
+and this
+
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~$ ls -l
+total 84
+drwxrwxr-x  2 malik malik 4096 Jul 25 11:06  build
+drwxr-xr-x  2 malik malik 4096 Jul 25 16:06  Desktop
+drwxr-xr-x  3 malik malik 4096 Jul 24 22:00  Documents
+drwxr-xr-x  3 malik malik 4096 Jul 25 16:06  Downloads
+-rwxrwxr-x  1 malik malik  153 Jul 25 15:53  GameCpu.sh
+drwxrwxr-x  9 malik malik 4096 Jul 25 11:11  gamescope
+drwxrwxr-x  7 malik malik 4096 Jul 24 22:51  gamescope-master
+-rwxrwxr-x  1 malik malik  252 Jul 25 10:38  InstallCryoUtilities.desktop
+drwxr-xr-x  2 malik malik 4096 Jul 16 20:18  Music
+drwxr-xr-x  2 malik malik 4096 Jul 16 20:18  Pictures
+drwxr-xr-x  2 malik malik 4096 Jul 16 20:18  Public
+drwx------  5 malik malik 4096 Jul 16 20:27  snap
+-rwxrwxr-x  1 malik malik  160 Jul 25 14:40  start_gamescope_steam.sh
+-rwxrwxr-x  1 malik malik  366 Jul 25 14:36  start_steam.sh
+-rwx--x--x  1 malik malik 7473 Jul 24 21:47  steam.desktop
+-rw-rw-r--  1 malik malik  153 Jul 24 22:02 'sudo cpufreq set c 0.txt'
+drwxr-xr-x  2 malik malik 4096 Jul 16 20:18  Templates
+-rwxrw-r--  1 malik malik   19 Jul 25 14:01 'Text File.sh'
+drwxr-xr-x  2 malik malik 4096 Jul 16 20:18  Videos
+drwxrwxr-x 11 malik malik 4096 Jul 25 11:19  wayland
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~$
+
+go to where you download it ofcourse the downloads
+
+
+
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~$ cd Downloads
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~/Downloads$
+
+
+
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~/Downloads$ ls -l
+total 117096
+-rw-rw-r-- 1 malik malik  3482128 Jul 16 20:40 Colloid-grey.tar.xz
+-rw-rw-r-- 1 malik malik     4040 Jul 24 23:15 com.steamdeckrepo.manager.flatpakref
+-rwxrwxr-x 1 malik malik 17572680 Jul 25 10:15 cryo_utilities
+drwxrwxr-x 2 malik malik     4096 Jul 25 16:02 GameRepoSteam
+-rw-rw-r-- 1 malik malik   472395 Jul 25 11:04 gamescope-master.zip
+-rw-rw-r-- 1 malik malik 94327756 Jul 16 20:56 google-chrome-stable_current_amd64.deb
+-rw-rw-r-- 1 malik malik   202948 Jul 16 20:36 Lavanda-Dark.tar.xz
+-rw-rw-r-- 1 malik malik  3822776 Jul 24 21:47 steam_latest.deb
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~/Downloads$
+
+
+and search the name of the packages
+
+here drwxrwxr-x 2 malik malik     4096 Jul 25 16:02 ----> GameRepoSteam
+
+and cd GameRepoSteam
+
+do( ls -l ) again
+
+find malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~/Downloads/GameRepoSteam$ ls -l
+total 16
+-rw-rw-r-- 1 malik malik 475 Jul 25 15:45 ARCHUpdateSteam.sh
+-rw-rw-r-- 1 malik malik   2 Jul 25 16:02 HowToUseTheUpdateProgram.txt
+-rw-rw-r-- 1 malik malik 137 Jul 25 15:42 ReadME.txt
+-rw-rw-r-- 1 malik malik 577 Jul 25 15:59 UBUNTUUpdateSteamGamescope.sh
+
+and find you're that works on you're linux example ubuntu
+
+and type ./UpdateSteamGamescope.sh
+
+if this happend
+malik@malik-VivoBook-ASUSLaptop-X712EA-X712EA:~/Downloads/GameRepoSteam$ ./UpdateSteamGamescope.sh
+bash: ./UpdateSteamGamescope.sh: Permission denied
+
+there is solution type chmod +x ./UpdateSteamGamescope.sh
+or this didnt work type this again chmod +x ./UpdateSteamGamescope.sh
+
